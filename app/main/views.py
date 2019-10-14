@@ -15,3 +15,9 @@ def index ():
     technology_list = get_sources('gb','technology')
     test_args ='working'
     return render_template('index.html',test_param = test_args,entertainment = entertainment_list,health = health_list,science = science_list, sports = sports_list,technology = technology_list)
+    
+@main.route('/news/<int:id>')
+def news(id):
+    """
+    views news page function that that returns the news details page and its data
+    """
