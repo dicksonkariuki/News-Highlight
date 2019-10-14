@@ -1,4 +1,6 @@
 {% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+{% block content %}
 <div class ="container-fluid" md-3>
 <div class ="row md-3 mb-4">
 
@@ -94,6 +96,10 @@
             <h3 class ="card-title">Technology news Sources</h3>
             <div class = "row">
                 {{macro.displaySourceList(technology)}}
-
+            </div>
+        </div>
     </div>
 </div>
+</div>
+</div>
+{% endblock %}
