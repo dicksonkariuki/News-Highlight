@@ -21,3 +21,6 @@ def news(id):
     """
     views news page function that that returns the news details page and its data
     """
+    news_args = get_articles(id)
+    highlight_args = 'Route Working'
+    return render_template('news.html',highlight_param = highlight_args, news = news_args)
