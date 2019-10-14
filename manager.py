@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.6
 from app import create_app
 from flask_script import Manager, Server
 
@@ -20,3 +21,4 @@ def test():
 
 if __name__ == '__main__':
     manager.run()
+

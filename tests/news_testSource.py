@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.6
 import unittest
 from app.models import Source
 # Source = news_source.Source
