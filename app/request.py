@@ -26,7 +26,7 @@ def get_sources(coutry, category):
     """
     Function that gets the json response to our url request
     """
-    get_news_url = base_url.format(coutry, category, api_key)
+    get_news_url = base_url.format(country, category, api_key)
     with urllib.request.urlopen(get_news_url) as url:
         get_news_data = url.read()
         get_news_response = json.loads(get_news_data)
