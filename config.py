@@ -1,4 +1,4 @@
-iimport os
+import os
 
 
 class Config:

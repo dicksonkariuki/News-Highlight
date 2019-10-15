@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand');
 
 h3{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 *{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
