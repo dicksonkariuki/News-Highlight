@@ -22,7 +22,7 @@ def configure_request(app):
     source_url = app.config['SOURCE_NEWS_URL']
 
 
-def get_sources(coutry, category):
+def get_sources(country, category):
     """
     Function that gets the json response to our url request
     """
